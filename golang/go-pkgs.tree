@@ -1,0 +1,325 @@
+  ├─ 1. archive
+    ├─ 1. tar
+    └─ 2. zip
+  ├─ 2. bufio
+  ├─ 3. bytes
+  ├─ 4. cmp
+  ├─ 5. compress
+    ├─ 1. bzip2
+    ├─ 2. flate
+    ├─ 3. gzip
+    ├─ 4. lzw
+    └─ 5. zlib
+  ├─ 6. container
+    ├─ 1. heap
+    ├─ 2. list
+    └─ 3. ring
+  ├─ 7. context
+  ├─ 8. crypto
+    ├─ 1. aes
+    ├─ 2. cipher
+    ├─ 3. des
+    ├─ 4. dsa
+    ├─ 5. ecdh
+    ├─ 6. ecdsa
+    ├─ 7. ed25519
+    ├─ 8. elliptic
+    ├─ 9. hmac
+    ├─ 10. internal
+    │ ├─ 1. alias
+    │ ├─ 2. bigmod
+    │ ├─ 3. boring
+    │ │ │├─ 1. bbig
+    │ │ │├─ 2. bcache
+    │ │ │└─ 3. sig
+    │ ├─ 4. edwards25519
+    │ │ │└─ 1. field
+    │ ├─ 5. nistec
+    │ │ │└─ 1. fiat
+    │ └─ 6. randutil
+    ├─ 11. md5
+    ├─ 12. rand
+    ├─ 13. rc4
+    ├─ 14. rsa
+    ├─ 15. sha1
+    ├─ 16. sha256
+    ├─ 17. sha512
+    ├─ 18. subtle
+    ├─ 19. tls
+    └─ 20. x509
+    │ └─ 1. pkix
+  ├─ 9. database
+    └─ 1. sql
+    │ └─ 1. driver
+  ├─ 10. debug
+    ├─ 1. buildinfo
+    ├─ 2. dwarf
+    ├─ 3. elf
+    ├─ 4. gosym
+    ├─ 5. macho
+    ├─ 6. pe
+    └─ 7. plan9obj
+  ├─ 11. embed
+    └─ 1. internal
+    │ └─ 1. embedtest
+  ├─ 12. encoding
+    ├─ 1. ascii85
+    ├─ 2. asn1
+    ├─ 3. base32
+    ├─ 4. base64
+    ├─ 5. binary
+    ├─ 6. csv
+    ├─ 7. gob
+    ├─ 8. hex
+    ├─ 9. json
+    ├─ 10. pem
+    └─ 11. xml
+  ├─ 13. errors
+  ├─ 14. expvar
+  ├─ 15. flag
+  ├─ 16. fmt
+  ├─ 17. go
+    ├─ 1. ast
+    ├─ 2. build
+    │ └─ 1. constraint
+    ├─ 3. constant
+    ├─ 4. doc
+    │ └─ 1. comment
+    ├─ 5. format
+    ├─ 6. importer
+    ├─ 7. internal
+    │ ├─ 1. gccgoimporter
+    │ ├─ 2. gcimporter
+    │ ├─ 3. srcimporter
+    │ └─ 4. typeparams
+    ├─ 8. parser
+    ├─ 9. printer
+    ├─ 10. scanner
+    ├─ 11. token
+    ├─ 12. types
+    └─ 13. version
+  ├─ 18. hash
+    ├─ 1. adler32
+    ├─ 2. crc32
+    ├─ 3. crc64
+    ├─ 4. fnv
+    └─ 5. maphash
+  ├─ 19. html
+    └─ 1. template
+  ├─ 20. image
+    ├─ 1. color
+    │ └─ 1. palette
+    ├─ 2. draw
+    ├─ 3. gif
+    ├─ 4. internal
+    │ └─ 1. imageutil
+    ├─ 5. jpeg
+    └─ 6. png
+  ├─ 21. index
+    └─ 1. suffixarray
+  ├─ 22. internal
+    ├─ 1. abi
+    ├─ 2. bisect
+    ├─ 3. buildcfg
+    ├─ 4. bytealg
+    ├─ 5. cfg
+    ├─ 6. chacha8rand
+    ├─ 7. coverage
+    │ ├─ 1. calloc
+    │ ├─ 2. cformat
+    │ ├─ 3. cmerge
+    │ ├─ 4. decodecounter
+    │ ├─ 5. decodemeta
+    │ ├─ 6. encodecounter
+    │ ├─ 7. encodemeta
+    │ ├─ 8. pods
+    │ ├─ 9. rtcov
+    │ ├─ 10. slicereader
+    │ ├─ 11. slicewriter
+    │ ├─ 12. stringtab
+    │ ├─ 13. test
+    │ └─ 14. uleb128
+    ├─ 8. cpu
+    ├─ 9. dag
+    ├─ 10. diff
+    ├─ 11. fmtsort
+    ├─ 12. fuzz
+    ├─ 13. goarch
+    ├─ 14. godebug
+    ├─ 15. godebugs
+    ├─ 16. goexperiment
+    ├─ 17. goos
+    ├─ 18. goroot
+    ├─ 19. gover
+    ├─ 20. goversion
+    ├─ 21. intern
+    ├─ 22. itoa
+    ├─ 23. lazyregexp
+    ├─ 24. lazytemplate
+    ├─ 25. nettrace
+    ├─ 26. obscuretestdata
+    ├─ 27. oserror
+    ├─ 28. pkgbits
+    ├─ 29. platform
+    ├─ 30. poll
+    ├─ 31. profile
+    ├─ 32. race
+    ├─ 33. reflectlite
+    ├─ 34. safefilepath
+    ├─ 35. saferio
+    ├─ 36. singleflight
+    ├─ 37. syscall
+    │ ├─ 1. execenv
+    │ └─ 2. unix
+    ├─ 38. sysinfo
+    ├─ 39. testenv
+    ├─ 40. testlog
+    ├─ 41. testpty
+    ├─ 42. trace
+    │ ├─ 1. traceviewer
+    │ │ │└─ 1. format
+    │ └─ 2. v2
+    │ │ │├─ 1. event
+    │ │ │  │└─ 1. go122
+    │ │ │├─ 2. internal
+    │ │ │  │└─ 1. testgen
+    │ │ │  │  │ └─ 1. go122
+    │ │ │├─ 3. raw
+    │ │ │├─ 4. testtrace
+    │ │ │└─ 5. version
+    ├─ 43. txtar
+    ├─ 44. types
+    │ └─ 1. errors
+    ├─ 45. unsafeheader
+    ├─ 46. xcoff
+    └─ 47. zstd
+  ├─ 23. io
+    ├─ 1. fs
+    └─ 2. ioutil
+  ├─ 24. log
+    ├─ 1. internal
+    ├─ 2. slog
+    │ └─ 1. internal
+    │ │ │├─ 1. benchmarks
+    │ │ │├─ 2. buffer
+    │ │ │└─ 3. slogtest
+    └─ 3. syslog
+  ├─ 25. maps
+  ├─ 26. math
+    ├─ 1. big
+    ├─ 2. bits
+    ├─ 3. cmplx
+    └─ 4. rand
+    │ └─ 1. v2
+  ├─ 27. mime
+    ├─ 1. multipart
+    └─ 2. quotedprintable
+  ├─ 28. net
+    ├─ 1. http
+    │ ├─ 1. cgi
+    │ ├─ 2. cookiejar
+    │ ├─ 3. fcgi
+    │ ├─ 4. httptest
+    │ ├─ 5. httptrace
+    │ ├─ 6. httputil
+    │ ├─ 7. internal
+    │ │ │├─ 1. ascii
+    │ │ │└─ 2. testcert
+    │ └─ 8. pprof
+    ├─ 2. internal
+    │ └─ 1. socktest
+    ├─ 3. mail
+    ├─ 4. netip
+    ├─ 5. rpc
+    │ └─ 1. jsonrpc
+    ├─ 6. smtp
+    ├─ 7. textproto
+    └─ 8. url
+  ├─ 29. os
+    ├─ 1. exec
+    │ └─ 1. internal
+    │ │ │└─ 1. fdtest
+    ├─ 2. signal
+    └─ 3. user
+  ├─ 30. path
+    └─ 1. filepath
+  ├─ 31. plugin
+  ├─ 32. reflect
+    └─ 1. internal
+    │ ├─ 1. example1
+    │ └─ 2. example2
+  ├─ 33. regexp
+    └─ 1. syntax
+  ├─ 34. runtime
+    ├─ 1. cgo
+    ├─ 2. coverage
+    ├─ 3. debug
+    ├─ 4. internal
+    │ ├─ 1. atomic
+    │ ├─ 2. math
+    │ ├─ 3. startlinetest
+    │ ├─ 4. sys
+    │ ├─ 5. syscall
+    │ └─ 6. wasitest
+    ├─ 5. metrics
+    ├─ 6. pprof
+    ├─ 7. race
+    │ └─ 1. internal
+    │ │ │└─ 1. amd64v1
+    └─ 8. trace
+  ├─ 35. slices
+  ├─ 36. sort
+  ├─ 37. strconv
+  ├─ 38. strings
+  ├─ 39. sync
+    └─ 1. atomic
+  ├─ 40. syscall
+  ├─ 41. testing
+    ├─ 1. fstest
+    ├─ 2. internal
+    │ └─ 1. testdeps
+    ├─ 3. iotest
+    ├─ 4. quick
+    └─ 5. slogtest
+  ├─ 42. text
+    ├─ 1. scanner
+    ├─ 2. tabwriter
+    └─ 3. template
+    │ └─ 1. parse
+  ├─ 43. time
+    └─ 1. tzdata
+  ├─ 44. unicode
+    ├─ 1. utf16
+    └─ 2. utf8
+  ├─ 45. unsafe
+  └─ 46. vendor
+    └─ 1. golang.org
+    │ └─ 1. x
+    │ │ │├─ 1. crypto
+    │ │ │  │├─ 1. chacha20
+    │ │ │  │├─ 2. chacha20poly1305
+    │ │ │  │├─ 3. cryptobyte
+    │ │ │  │  │ └─ 1. asn1
+    │ │ │  │├─ 4. hkdf
+    │ │ │  │└─ 5. internal
+    │ │ │  │  │ ├─ 1. alias
+    │ │ │  │  │ └─ 2. poly1305
+    │ │ │├─ 2. net
+    │ │ │  │├─ 1. dns
+    │ │ │  │  │ └─ 1. dnsmessage
+    │ │ │  │├─ 2. http
+    │ │ │  │  │ ├─ 1. httpguts
+    │ │ │  │  │ └─ 2. httpproxy
+    │ │ │  │├─ 3. http2
+    │ │ │  │  │ └─ 1. hpack
+    │ │ │  │├─ 4. idna
+    │ │ │  │└─ 5. nettest
+    │ │ │├─ 3. sys
+    │ │ │  │└─ 1. cpu
+    │ │ │└─ 4. text
+    │ │ │  │├─ 1. secure
+    │ │ │  │  │ └─ 1. bidirule
+    │ │ │  │├─ 2. transform
+    │ │ │  │└─ 3. unicode
+    │ │ │  │  │ ├─ 1. bidi
+    │ │ │  │  │ └─ 2. norm
