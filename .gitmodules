@@ -1,3 +1,6 @@
 [submodule "python/django"]
 	path = python/django
 	url = https://github.com/django/django.git
+[submodule "vimscript/todo.txt-vim"]
+	path = vimscript/todo.txt-vim
+	url = https://github.com/freitass/todo.txt-vim.git
